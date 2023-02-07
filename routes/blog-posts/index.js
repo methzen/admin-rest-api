@@ -24,7 +24,6 @@ app.post("/blog-posts/create-new", authAdminUser, function(req, res) {
       !req.body.urlTitle ||
       !req.body.dateTimestamp ||
       !req.body.tags ||
-      !req.body.thumbnailImageUrl ||
       !req.body.markdownContent ||
       !req.body.seoTitleTag ||
       !req.body.seoMetaDescription
@@ -70,7 +69,6 @@ app.post("/blog-posts/create-new", authAdminUser, function(req, res) {
       !req.body.urlTitle ||
       !req.body.dateTimestamp ||
       !req.body.tags ||
-      !req.body.thumbnailImageUrl ||
       !req.body.markdownContent ||
       !req.body.seoTitleTag ||
       !req.body.seoMetaDescription
